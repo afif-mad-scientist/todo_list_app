@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "My Todo List",
+    "slug": "template",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.madscientist.mytodolist",
+      "versionCode": 1
+    },
+    "description": "it is an app made with the youtuber tutorial 'the net ninja'"
+  }
+}
